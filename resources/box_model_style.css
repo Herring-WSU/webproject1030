@@ -1,0 +1,54 @@
+/*
+  BACKGROUND: DRAGON EGG WHITE     #FFFFFF
+  ACCENT 1:   DRAGON SCALE GREEN: #00874A
+  ACCENT 2:   DRAGON BLOOD RED:    #87003D
+*/
+
+/*HEADING COLOR: ACCENT 1 #00874A*/
+h1 {
+  color: #00874A;
+  text-align: center;
+}
+
+/*Anchors*/
+a {
+  color:#00874A; 
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover{
+    color:#87003D
+}
+
+/*Table*/
+table {
+  border-collapse: collapse;
+  border: #87003D solid 4px;  
+}
+
+th, td {
+  border: #87003D solid 2px; 
+  padding: 3px 5px 5px 3px      
+}
+
+/*Accent Paragraph*/
+p.accentpara {
+  background-color: #00874A;  
+  color: white;             
+  text-align: center;       
+  width: 60%;            
+  padding: 10px;           
+  margin: 0 auto;  
+  border: #87003D groove 5px;
+}
+
+/*Div Style*/
+div {
+  background-color: #00874A; 
+  width: 646px; 
+  padding: 20px; 
+  border: 5px ridge #87003D; 
+  margin: 10px; 
+  text-align: center; 
+}

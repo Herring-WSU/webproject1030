@@ -1,0 +1,60 @@
+/*
+BLUE:       #468BA6
+BLUE_D:     #1D4859
+ORANGE:     #F29A2E
+ORANGE_L:   #FDF0E0
+BROWN:      #593814
+*/
+/*Background Color*/
+body {
+    background-color: #FDF0E0;
+    padding: 0px 24px 36px 24px
+}
+
+a{
+    color:#593814;
+    font-weight: bold;
+}
+
+a:hover{
+    color:#1D4859
+}
+
+/*Heading 1 and Heading 2 Color*/
+h1, h2 {
+    color: #1D4859 
+}
+/* Heading 1: Center Text */
+h1 {
+    text-align: center;
+}
+
+p.picture {
+    text-align: center;
+}
+
+p, li, table {
+    font-size: 1.2em;
+}
+
+th, td {
+    /*border-color: #468BA6;
+    border-style: solid;
+    border-width: 3px;*/ 
+    border:#468BA6 solid 3px; 
+    padding: 8px;                                      /*  6px 12px 8px 16px  */
+}                                                      /*   TP  RT   BT  LT   */   
+
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/*Block Display
+Specifed Width
+Left And Right Margins = Set To Auto*/
