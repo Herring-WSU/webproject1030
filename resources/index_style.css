@@ -1,0 +1,61 @@
+/*
+  BACKGROUND: COOLANT WHITE #F2F2F2
+  ACCENT 1:   HYPOXIA BLUE: #166B8C
+  ACCENT 2:   GUN SMOKE BLACK: #404040   
+  ACCENT 3:   VARIANT ORANGE: #BF6836
+*/
+
+ 
+body {
+    background-color: #F2F2F2;
+    padding: 0px 24px 36px 24px
+}
+
+h1 {
+    color: #166B8C;
+    text-align: center;
+  }
+
+h2 {
+    color: #166B8C;
+}
+
+p {
+    color: #404040;  
+}
+  
+  /*Anchors*/
+  a {
+    color:#BF6836; 
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  a:hover{
+      color:#A6674E
+  }
+  
+  /*Table*/
+  table {
+    border-collapse: collapse;
+    border: #404040 solid 4px;  
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  th, td {
+    border: #404040 solid 2px; 
+    padding: 3px 5px 5px 3px      
+  }
+
+p.picture {
+    text-align: center;
+}
+
+p.picturesun{
+    text-align: center;
+}
+
+
+  
+   
